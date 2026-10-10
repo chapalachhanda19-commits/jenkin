@@ -8,7 +8,7 @@ pipeline {
         }
         stage("sho version") {
             steps {
-                sh "python3 --verson"
+                sh "python3 --version"
             }
         }
         stage("run the code") {
