@@ -7,12 +7,12 @@ pipeline {
             }
         }
         stage("sho version") {
-            step{
+            steps {
                 sh "python3 --verson"
             }
         }
         stage("run the code") {
-            step{
+            steps {
                 sh "python3 read.py"
             }
         }
